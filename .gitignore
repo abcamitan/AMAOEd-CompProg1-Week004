@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# user defined
+hello.dSYM
+hello
