@@ -32,5 +32,4 @@
 *.app
 
 # user defined
-hello.dSYM
-hello
+hello*.dSYM

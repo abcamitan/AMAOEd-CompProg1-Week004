@@ -13,8 +13,6 @@
  *      -- <description>
  * ****************************************************************/
 
-#include <cstdio>
-#include <cstdlib>
 #include <iostream>
 
 using namespace std;
@@ -32,10 +30,6 @@ int main() {
     // Place your code logic after this comment line
     // ***********************************************************
 
-    cout << "Hello World! \n";
-
-    // ********************** DO NOT CHANGE **********************
-    // Print a new line and ask user for any key before exiting
-    // ***********************************************************
-    return EXIT_SUCCESS;
+    cout << "Hello\n";
+    cout << "World\n";
 }
