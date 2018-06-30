@@ -1,5 +1,5 @@
-# AMAOEd-CompProg1-Week004
-Week 04 - Exercise, C++ application. 
+# AMAOEd-CompProg1-Laboratory Exercises
+Exercise, C++ application. 
 
 ## C++ Programming Language | VS Code
 
@@ -39,45 +39,80 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 ## Code application:
 
-### 1. Hello World
+### 1. Week004 - Hello World
 
 * Run below command to compile the code.
 
-        g++ -g src/hello/hello.cpp -o output/hello/hello -lm
+        g++ -g src/Week004/hello.cpp -o output/Week004/hello -lm
 
 * Run below to test the application you should see **Hello World!**
 
-        ./output/hello/hello
+        ./output/Week004/hello
 
 #### 1.a Task 1
 
 * Run below command to compile the code.
 
-        g++ -g src/hello/hello1.cpp -o output/hello/hello1 -lm
+        g++ -g src/Week004/hello1.cpp -o output/Week004/hello1 -lm
 
-* Run below to test the application you should see **Hello World!**
+* Run below to test the application
 
-        ./output/hello/hello1
+        ./output/Week004/hello1
 
 #### 1.b Task 2
 
 * Run below command to compile the code.
 
-        g++ -g src/hello/hello2.cpp -o output/hello/hello2 -lm
+        g++ -g src/Week004/hello2.cpp -o output/Week004/hello2 -lm
 
-* Run below to test the application you should see **Hello World!**
+* Run below to test the application
 
-        ./output/hello/hello2
+        ./output/Week004/hello2
 
 #### 1.c Task 3
 
 * Run below command to compile the code.
 
-        g++ -g src/hello/hello3.cpp -o output/hello/hello3 -lm
+        g++ -g src/Week004/hello3.cpp -o output/Week004/hello3 -lm
 
-* Run below to test the application you should see **Hello World!**
+* Run below to test the application
 
-        ./output/hello/hello3
+        ./output/Week004/hello3
 
+### 2. Week004 - Getting Input from User
 
+#### 2.a.	Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
 
+* Run below command to compile the code.
+
+        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+
+* Run below to test the application
+
+        ./output/Week005/hello
+
+#### 2.b.	Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+
+* Run below to test the application
+
+        ./output/Week005/hello
+
+#### 2.c.	Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
+
+````
+Restrictions:
+	Use only three variables.
+	Make sure you support spaces.
+````
+
+* Run below command to compile the code.
+
+        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+
+* Run below to test the application
+
+        ./output/Week005/hello
