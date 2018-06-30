@@ -85,34 +85,34 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 * Run below command to compile the code.
 
-        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+        g++ -g src/Week005/section.cpp -o output/Week005/section -lm
 
 * Run below to test the application
 
-        ./output/Week005/hello
+        ./output/Week005/section
 
 #### 2.b.	Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
 
 * Run below command to compile the code.
 
-        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+        g++ -g src/Week005/budget.cpp -o output/Week005/budget -lm
 
 * Run below to test the application
 
-        ./output/Week005/hello
+        ./output/Week005/budget
 
 #### 2.c.	Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
 
 ````
 Restrictions:
 	Use only three variables.
-	Make sure you support spaces.
+	Make sure you support spaces. (need to use string library and getline method)
 ````
 
 * Run below command to compile the code.
 
-        g++ -g src/Week005/hello.cpp -o output/Week005/hello -lm
+        g++ -g src/Week005/userdetail.cpp -o output/Week005/userdetail -lm
 
 * Run below to test the application
 
-        ./output/Week005/hello
+        ./output/Week005/userdetail
