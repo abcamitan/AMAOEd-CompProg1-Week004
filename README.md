@@ -37,16 +37,47 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 * After install run the **g++ --version** again
 
-## To compile:
+## Code application:
+
+### 1. Hello World
 
 * Run below command to compile the code.
 
-        g++ -g src/main.cpp -o hello -lm
-
-## To run the application
+        g++ -g src/hello/hello.cpp -o output/hello/hello -lm
 
 * Run below to test the application you should see **Hello World!**
 
-        ./hello
+        ./output/hello/hello
+
+#### 1.a Task 1
+
+* Run below command to compile the code.
+
+        g++ -g src/hello/hello1.cpp -o output/hello/hello1 -lm
+
+* Run below to test the application you should see **Hello World!**
+
+        ./output/hello/hello1
+
+#### 1.b Task 2
+
+* Run below command to compile the code.
+
+        g++ -g src/hello/hello2.cpp -o output/hello/hello2 -lm
+
+* Run below to test the application you should see **Hello World!**
+
+        ./output/hello/hello2
+
+#### 1.c Task 3
+
+* Run below command to compile the code.
+
+        g++ -g src/hello/hello3.cpp -o output/hello/hello3 -lm
+
+* Run below to test the application you should see **Hello World!**
+
+        ./output/hello/hello3
+
 
 
