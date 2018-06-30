@@ -79,7 +79,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week004/hello3
 
-### 2. Week004 - Getting Input from User
+### 2. Week005 - Getting Input from User
 
 #### 2.a.	Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
 
