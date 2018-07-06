@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp",
+        "__bit_reference": "cpp",
+        "iterator": "cpp"
     }
 }

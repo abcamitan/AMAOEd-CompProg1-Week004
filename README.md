@@ -37,9 +37,9 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 * After install run the **g++ --version** again
 
-## Code application:
+# Code submission / application:
 
-### 1. Week004 - Hello World
+## 1. Week004 - Hello World
 
 * Run below command to compile the code.
 
@@ -49,7 +49,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week004/hello
 
-#### 1.a Task 1
+### 1.a Task 1
 
 * Run below command to compile the code.
 
@@ -59,7 +59,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week004/hello1
 
-#### 1.b Task 2
+### 1.b Task 2
 
 * Run below command to compile the code.
 
@@ -69,7 +69,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week004/hello2
 
-#### 1.c Task 3
+### 1.c Task 3
 
 * Run below command to compile the code.
 
@@ -79,9 +79,9 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week004/hello3
 
-### 2. Week005 - Getting Input from User
+## 2. Week005 - Getting Input from User
 
-#### 2.a.	Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
+### 2.a.	Write a program that accepts user’s section, and display them back with the format “*** Section: user’s section ***”.
 
 * Run below command to compile the code.
 
@@ -91,7 +91,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week005/section
 
-#### 2.b.	Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
+### 2.b.	Write a program that accepts user’s daily budget and display the product of the daily budget and itself.
 
 * Run below command to compile the code.
 
@@ -101,7 +101,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ./output/Week005/budget
 
-#### 2.c.	Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
+### 2.c.	Write a program that accepts user’s name, password and address and display them back using the format “Hi, I am user’s name. I live at user’s address.”.
 
 ````
 Restrictions:
@@ -116,3 +116,52 @@ Restrictions:
 * Run below to test the application
 
         ./output/Week005/userdetail
+
+## 3. Week006 - Condition (IF and SWITCH statements)
+
+### 3.1.	Write a program that will accept an integer and execute one of the following based on the input using IF statements:
+#### a.	If 0, display only “Hello World”.
+#### b.	If 1, display only “I am Groot”.
+#### c.	If 2, display only “To the Top”.
+#### d.	If 3, display only “Where is the horizon”.
+#### e.	If 4, display only “I do not know”.
+#### f.	If none of the above, display only “Yeah, I will.”.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week006/if.cpp -o output/Week006/if -lm
+
+* Run below to test the application
+
+        ./output/Week006/if
+
+### 3.2.	Write a program that will accept an integer and execute one of the following based on the input using SWITCH statements:
+#### a.	If 0, display only “Hello World”.
+#### b.	If 1, display only “I am Groot”.
+#### c.	If 2, display only “To the Top”.
+#### d.	If 3, display only “Where is the horizon”.
+#### e.	If 4, display only “I do not know”.
+#### f.	If none of the above, display only “Yeah, I will.”.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week006/switch.cpp -o output/Week006/switch -lm
+
+* Run below to test the application
+
+        ./output/Week006/switch
+
+### 3.3.	Write a program that will divide the two floating points entered by the user (first number entered divided by the second number entered). Make sure your application handles all possible scenarios with floating points.
+
+**Float limits**:
+
+        maximum limit = 3.40282e+38  = std::numeric_limits<float>::max()
+        minimum limit = -3.40282e+38 = std::numeric_limits<float>::lowest()
+
+* Run below command to compile the code.
+
+        g++ -g src/Week006/division.cpp -o output/Week006/division -lm
+
+* Run below to test the application
+
+        ./output/Week006/division

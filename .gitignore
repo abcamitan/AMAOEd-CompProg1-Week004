@@ -33,3 +33,5 @@
 
 # user defined
 hello*.dSYM
+*.dSYM
+output/Week006/division.dSYM/Contents/Info.plist
