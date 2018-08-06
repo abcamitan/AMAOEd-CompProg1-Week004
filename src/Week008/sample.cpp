@@ -5,8 +5,18 @@ using namespace std;
 
 int main(){
   int n;
-  cout << "Enter the number of elements: ";
-  cin >> n;
+
+  while(true){
+    if(cin.fail()) {
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    } else if (n < 1 || n > 10) {
+      cout << "Enter the number of elements: ";
+      cin >> n;
+    } else {
+      break;
+    }
+  }
 
   int x[n];
 
