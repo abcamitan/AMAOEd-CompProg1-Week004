@@ -3,7 +3,7 @@
 using namespace std;
 
 int main () {
-  int intHeight, i, t;
+  int intHeight, i, k;
 
   while(true){
     if(cin.fail()) {
@@ -20,11 +20,11 @@ int main () {
   char arr[10] = {'A','B','C','D','E','F','G','H','I','J'};
   for(i = 0; i < intHeight; i++)
   {
-    for(t = 0; t < intHeight - i - 1; t++)
+    for(k = 0; k < intHeight - i - 1; k++)
     {
       cout << " ";
     }
-    for(t = 0; t < (i * 2) + 1; t++)
+    for(k = 0; k < (i * 2) + 1; k++)
     {
       cout << arr[i];
     }
