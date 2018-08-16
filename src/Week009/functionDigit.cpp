@@ -23,4 +23,5 @@ int main() {
   }
 
   cout << separateDigit(digit) << endl;
+  return EXIT_SUCCESS;
 }

@@ -18,4 +18,5 @@ int main() {
   cout << "Enter an integer: ";
   cin >> n;
   cout << fib(n) << endl;
+  return EXIT_SUCCESS;
 }
