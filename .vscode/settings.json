@@ -8,6 +8,9 @@
         "__bit_reference": "cpp",
         "iterator": "cpp",
         "ostream": "cpp",
-        "__locale": "cpp"
+        "__locale": "cpp",
+        "memory": "cpp",
+        "iosfwd": "cpp",
+        "typeinfo": "cpp"
     }
 }
