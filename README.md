@@ -255,7 +255,7 @@ Restrictions:
 
         ./output/Week009/functionDigit
 
-### 6.3.	3.	Write a program that will display the nth Fibonacci number. Create a function that will generate the nth Fibonacci number. Fibonacci numbers are numbers from the Fibonacci sequence which follows the pattern of 1, 1, 2, 3, 5, 8, 13, 21, 33, 54…
+### 6.3.	Write a program that will display the nth Fibonacci number. Create a function that will generate the nth Fibonacci number. Fibonacci numbers are numbers from the Fibonacci sequence which follows the pattern of 1, 1, 2, 3, 5, 8, 13, 21, 33, 54…
 
 * Run below command to compile the code.
 
@@ -264,3 +264,35 @@ Restrictions:
 * Run below to test the application
 
         ./output/Week009/functionFibonacci
+
+## 7. Week010 - Object-Oriented Programming 1
+
+### 7.1. Write a class that will represent a legged mammal. Consider the number of legs, kind of fur, presence of tail.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week010/task1/main.cpp -o output/Week010/mammal -lm
+
+* Run below to test the application
+
+        ./output/Week010/mammal
+
+### 7.2. Write a class that will represent a person. Consider the name, address, gender, age and occupation.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week010/task2/main.cpp -o output/Week010/person -lm
+
+* Run below to test the application
+
+        ./output/Week010/person
+
+### 7.3. Write a class that will represent polygon. Consider the name, number of sides and color.
+
+* Run below command to compile the code.
+
+        g++ -g src/Week010/task3/main.cpp -o output/Week010/polygon -lm
+
+* Run below to test the application
+
+        ./output/Week010/polygon
