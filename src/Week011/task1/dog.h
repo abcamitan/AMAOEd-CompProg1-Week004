@@ -14,15 +14,6 @@ class Dog : public Mammal {
       :Mammal(name,fur,legs, hasTail) {
     }
 
-    string getInformation() {
-      ostringstream s;
-      s << this->getMammal();
-      s << "Breed: " << getBreed() << endl;
-      s << "Size: " << getSize() << endl;
-      s << "Is Registered: " << getIsRegister() << endl;
-      return s.str();
-    }
-
     void setBreed(string breed) {
       this->_breed = breed;
     }
@@ -46,4 +37,13 @@ class Dog : public Mammal {
     bool getIsRegister() {
       return _isRegister;
     }
+
+    // string getInformation() {
+    //   ostringstream s;
+    //   s << this->getMammal();
+    //   s << "Breed: " << getBreed() << endl;
+    //   s << "Size: " << getSize() << endl;
+    //   s << "Is Registered: " << getIsRegister() << endl;
+    //   return s.str();
+    // }
 };

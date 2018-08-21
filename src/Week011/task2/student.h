@@ -15,15 +15,6 @@ class Student : public Person{
 
     }
 
-    string getInformation(){
-      ostringstream s;
-      s << this->Person::getInformation();
-      s << "Program: " << getProgram() << endl;
-      s << "Years in College: " << getYearsInCollege() << endl;
-      s << "University: " << getUniversity() << endl;
-      return s.str();
-    }
-
     void setProgram(string program) {
       this->_program = program;
     }
@@ -47,4 +38,13 @@ class Student : public Person{
     short getYearsInCollege() {
       return _years;
     }
+
+    // string getInformation(){
+    //   ostringstream s;
+    //   s << this->Person::getInformation();
+    //   s << "Program: " << getProgram() << endl;
+    //   s << "Years in College: " << getYearsInCollege() << endl;
+    //   s << "University: " << getUniversity() << endl;
+    //   return s.str();
+    // }
 };

@@ -10,8 +10,10 @@ int main()
   pet.setBreed("Chihuahua");
   pet.setSize("Small");
   pet.setIsRegister(false);
-  cout << "[Dog Details] \n" << pet.getInformation() << endl;
-
+  cout << "[Dog Details] \n" << pet.getMammal();
+  cout << "Breed: " << pet.getBreed() << endl;
+  cout << "Size: " << pet.getSize() << endl;
+  cout << "Is Registered: " << pet.getIsRegister() << endl;
   cout << endl;
   return EXIT_SUCCESS;
 }
